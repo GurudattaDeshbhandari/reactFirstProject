@@ -1,0 +1,50 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: blueviolet;
+}
+
+.footer{
+  background-color: blueviolet;
+  height: 60px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.nav-list-item {
+  margin-right: 10px;
+  font-size: 1.1rem;
+}
+
+.logo-react { 
+  width: 40px ;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+}
